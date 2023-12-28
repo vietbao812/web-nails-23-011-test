@@ -1,0 +1,59 @@
+{
+  "id": "contact-us",
+  "title": "FAST BOY MARKETING",
+  "background": "#000",
+  "contact": {
+    "info": [
+      {
+        "label": "11011 Richmond Ave,Ste 250Houston, TX 77042",
+        "icon": "/images/ic_home.svg"
+      },
+      {
+        "label": ["Mon – Fri: 9:00 am – 8:00 pm ", "Sat – Sun: 9:00 am – 10 pm"],
+        "icon": "/images/ic_oclock.svg"
+      },
+      {
+        "label": "832-968-6668",
+        "icon": "/images/ic_phone.svg"
+      },
+      {
+        "label": "www.web@fastboy.net",
+        "icon": "/images/ic_global.svg"
+      }
+    ]
+  },
+  "form": {
+    "title": "Contact Us"
+  },
+  "social": [
+    {
+      "icon": "/images/icon_facebook.png",
+      "link": "https://www.facebook.com/fastboymarketing/"
+    },
+    {
+      "icon": "/images/icon_google.png",
+      "link": "https://www.facebook.com/fastboymarketing/"
+    },
+    {
+      "icon": "/images/icon_instagram.png",
+      "link": "https://www.facebook.com/fastboymarketing/"
+    },
+    {
+      "icon": "/images/icon_linkedin.png",
+      "link": "https://www.facebook.com/fastboymarketing/"
+    },
+    {
+      "icon": "/images/icon_pinterest.png",
+      "link": "https://www.facebook.com/fastboymarketing/"
+    },
+    {
+      "icon": "/images/icon_twitter.png",
+      "link": "https://www.facebook.com/fastboymarketing/"
+    }
+  ],
+  "_inputs": {
+    "label": {
+      "type": "text"
+    }
+  }
+}

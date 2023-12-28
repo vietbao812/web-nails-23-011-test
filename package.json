@@ -1,0 +1,39 @@
+{
+  "name": "web-nails-23-011",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "newzen fetch-routes-generate && node public/js/fetch-theme-color.js && nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . --ext .vue,.js,.ts --ignore-path .gitignore",
+    "lint-fix": "eslint . --ext .vue,.js,.ts --ignore-path .gitignore"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.10",
+    "eslint": "^8.51.0",
+    "nuxt": "^3.7.4",
+    "sass": "^1.69.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@iconify-json/mdi": "^1.1.54",
+    "@iconify-json/ri": "^1.1.12",
+    "@nuxt/content": "^2.8.5",
+    "@nuxt/image": "1.0.0-rc.3",
+    "@nuxt/ui": "^2.9.0",
+    "@pinia/nuxt": "^0.5.1",
+    "dayjs": "^1.11.10",
+    "newzen-connector": "~1.0.8",
+    "node-fetch": "^3.3.2",
+    "nuxt-swiper": "^1.2.2",
+    "pinia": "^2.1.7",
+    "require-polyfills": "^1.0.1"
+  }
+}

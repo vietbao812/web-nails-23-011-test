@@ -1,0 +1,38 @@
+{
+  "logo": "/images/logo.png",
+  "background": "#27272F",
+  "nav": [
+    {
+      "link": "/",
+      "text": "Home"
+    },
+    {
+      "link": "/#shop",
+      "text": "Shop"
+    },
+    {
+      "link": "/blog",
+      "text": "Blog"
+    },
+    {
+      "link": "/#on-sale",
+      "text": "On Sale"
+    },
+    {
+      "link": "/#about-us",
+      "text": "About Us"
+    },
+    {
+      "link": "#contact-us",
+      "text": "Contact"
+    }
+  ],
+  "_inputs": {
+    "logo": {
+      "type": "image"
+    },
+    "background": {
+      "type": "color"
+    }
+  }
+}

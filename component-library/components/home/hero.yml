@@ -1,0 +1,49 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Hero Home
+  description: Hero Home
+  icon: "cottage"
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  id: home-banner
+  title: ONE STEP TO MAKING A GOOD START
+  description: Mauris fermentum tortor non enim aliquet condimentum. Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum ac, suscipit nec mauris. Suspendisse commodo tempor sagittis!
+  background: /images/bg-hero.png
+  image: /images/banner-home.png
+  image_alt: banner home
+  button:
+    text: View more
+    url: /
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  id: 
+    label: ID section
+    type: text
+  title: 
+    label: Title
+    type: text
+  description: 
+    label: Description
+    type: markdown
+  background:
+    label: Background
+    type: image
+  image:
+    label: Image
+    type: image
+  image_alt:
+    label: Image Alt
+    type: text
+  button.url:
+    label: Button URL
+    type: text
+  button.text:
+    label: Button Text
+    type: text

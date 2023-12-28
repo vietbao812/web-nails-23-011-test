@@ -1,0 +1,108 @@
+@use 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000;
+  font-weight: 400;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  word-break: break-word;
+}
+h1, .heading-1 {
+  font-size: 80px;
+  line-height: 75px;
+  font-weight: 900;
+}
+h2, .heading-2 {
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 75px;
+  span {
+    &:nth-child(1) {
+      color: var(--color-primary);
+    }
+  }
+}
+h3, .heading-3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+}
+h4, .heading-4 {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.custom-btn {
+  padding: 17px 32px;
+  font-weight: 800;
+  display: inline-block;
+  background: var(--color-primary);
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+  font-size: 25px;
+  min-width: fit-content;
+  border-radius: 30px;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+p {
+  white-space: break-spaces;
+}
+
+.footer-title {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 80%;
+  margin-bottom: 17px;
+  text-transform: uppercase;
+}
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+::selection {
+  background-color: var(--color-primary) !important;
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1172px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .heading-1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 900;
+  }
+  .heading-2 {
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 60px;
+  }
+  .custom-btn {
+    padding: 28px 32px;
+    display: block;
+    text-align: center;
+    border-radius: 48.5px;
+    font-size: 30px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,57 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: About Section
+  description: About Section
+  icon: "cottage"
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  id: about
+  title: We Are Healthy Food Organic.
+  description: We bring the season’s best mix of organic produce and hand-crafted farm products conveniently to your door by growing and partnering with local farms and artisans in your area.
+  background: /images/bg-about-us.png
+  button:
+    text: View more
+    url: /
+  image: /images/about.png
+  image_alt: about
+  signature: /images/signature.png
+  signature_alt: signature
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  id: 
+    label: ID section
+    type: text
+  title: 
+    label: Title
+    type: text
+  description: 
+    label: Description
+    type: markdown
+  background:
+    label: Background
+    type: image
+  image:
+    label: Image
+    type: image
+  image_alt:
+    label: Image Alt
+    type: text
+  button.url:
+    label: Button URL
+    type: text
+  button.text:
+    label: Button Text
+    type: text
+  signature:
+    label: Signature
+    type: image
+  signature_alt:
+    label: Signature Alt
+    type: text

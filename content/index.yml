@@ -1,0 +1,144 @@
+title: Home
+content_blocks:
+  - _block_name: home/hero
+    id: home-banner
+    title: ONE STEP TO MAKING A GOOD START
+    description: Mauris fermentum tortor non enim aliquet condimentum. Nam aliquam pretium feugiat. Duis sem est, viverra eu interdum ac, suscipit nec mauris. Suspendisse commodo tempor sagittis!
+    background: /images/bg-hero.png
+    image: /images/banner-home.png
+    image_alt: banner home
+    button:
+      text: View more
+      url: /
+
+
+  - _block_name: section/about
+    id: about-us
+    title: We Are Healthy Food Organic.
+    description: We bring the season’s best mix of organic produce and hand-crafted farm products conveniently to your door by growing and partnering with local farms and artisans in your area.
+    background: /images/bg-about-us.png
+    button:
+      text: View more
+      url: /
+    image: /images/about.png
+    image_alt: about
+    signature: /images/signature.png
+    signature_alt: signature
+
+
+  - _block_name: section/gallery
+    id: on-sale
+    gallery:
+      - image: /images/gallery-1.png
+        image_alt: gallery 1
+        tag: Fruits & Veges
+      - image: /images/gallery-2.png
+        image_alt: gallery 1
+        tag: Breakfast & Cereal
+      - image: /images/gallery-2.png
+        image_alt: gallery 1
+        tag: Bread & Pastries
+      - image: /images/gallery-2.png
+        image_alt: gallery 1
+        tag: Beer, Wine & Spirits
+      - image: /images/gallery-2.png
+        image_alt: gallery 1
+        tag: Seeds & Nuts
+
+
+  - _block_name: section/product
+    id: shop
+    title_highlight: FEATURED 
+    title: PRODUCTS
+    button:
+      text: ADD TO CART
+      icon: /images/mdi_cart.svg
+      icon_alt: cart
+    product:
+      - category: ORGANIC
+        list: 
+          - title: Waitrose Candy Crunch Seedless Grapes400g
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-1.png
+            image_alt: product 1
+          - title: Waitrose Candy Crunch Seedless Grapes400g
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-1.png
+            image_alt: product 1
+          - title: Waitrose Candy Crunch Seedless Grapes400g
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-1.png
+            image_alt: product 1
+          - title: Waitrose Candy Crunch Seedless Grapes400g
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-1.png
+            image_alt: product 1
+      - category: FRUITS
+        list: 
+          - title: Waitrose Candy Crunch Seedless
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-2.png
+            image_alt: product 1
+          - title: Waitrose Candy Crunch Seedless
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-2.png
+            image_alt: product 1
+          - title: Waitrose Candy Crunch Seedless
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-2.png
+            image_alt: product 1
+      - category: SEAFOOD
+        list: 
+          - title: Waitrose Candy Crunch Seedless Grapes400g
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-3.png
+            image_alt: product 1
+          - title: Waitrose Candy Crunch Seedless Grapes400g
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-3.png
+            image_alt: product 1
+      - category: WINE & BEER
+        list: 
+          - title: Waitrose Candy Crunch Seedless Grapes400g
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-4.png
+            image_alt: product 1
+          - title: Waitrose Candy Crunch Seedless Grapes400g
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-4.png
+            image_alt: product 1
+          - title: Waitrose Candy Crunch Seedless Grapes400g
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-4.png
+            image_alt: product 1
+          - title: Waitrose Candy Crunch Seedless Grapes400g
+            tag: Breakfast & Cereal, Milk & Cream
+            price: $169.18
+            image: /images/p-4.png
+            image_alt: product 1
+
+
+  - _block_name: section/banner
+    id: banner
+    banner: /images/bg-banner.png
+    banner_alt: banner
+
+
+  - _block_name: section/blog
+    title_highlight: NEWS 
+    title: '& BLOGS'
+    button: 
+      text: View more
+      url: /blog

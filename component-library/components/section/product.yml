@@ -1,0 +1,133 @@
+# Metadata about this component, to be used in the CMS
+spec:
+  structures:
+    - content_blocks
+  label: Product Section
+  description: Product Section
+  icon: "cottage"
+
+# Defines the structure of this component, as well as the default values
+blueprint:
+  id: product
+  title_highlight: FEATURED 
+  title: PRODUCTS
+  button:
+    text: ADD TO CART
+    icon: /images/mdi_cart.svg
+    icon_alt: cart
+  product:
+    - category: ORGANIC
+      list: 
+        - title: Waitrose Candy Crunch Seedless Grapes400g
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-1.png
+          image_alt: product 1
+        - title: Waitrose Candy Crunch Seedless Grapes400g
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-1.png
+          image_alt: product 1
+        - title: Waitrose Candy Crunch Seedless Grapes400g
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-1.png
+          image_alt: product 1
+        - title: Waitrose Candy Crunch Seedless Grapes400g
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-1.png
+          image_alt: product 1
+    - category: FRUITS
+      list: 
+        - title: Waitrose Candy Crunch Seedless
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-2.png
+          image_alt: product 1
+        - title: Waitrose Candy Crunch Seedless
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-2.png
+          image_alt: product 1
+        - title: Waitrose Candy Crunch Seedless
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-2.png
+          image_alt: product 1
+    - category: SEAFOOD
+      list: 
+        - title: Waitrose Candy Crunch Seedless Grapes400g
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-3.png
+          image_alt: product 1
+        - title: Waitrose Candy Crunch Seedless Grapes400g
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-3.png
+          image_alt: product 1
+    - category: WINE & BEER
+      list: 
+        - title: Waitrose Candy Crunch Seedless Grapes400g
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-4.png
+          image_alt: product 1
+        - title: Waitrose Candy Crunch Seedless Grapes400g
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-4.png
+          image_alt: product 1
+        - title: Waitrose Candy Crunch Seedless Grapes400g
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-4.png
+          image_alt: product 1
+        - title: Waitrose Candy Crunch Seedless Grapes400g
+          tag: Breakfast & Cereal, Milk & Cream
+          price: $169.18
+          image: /images/p-4.png
+          image_alt: product 1
+
+# Overrides any fields in the blueprint when viewing this component in the component browser
+preview:
+
+# Any extra CloudCannon inputs configuration to apply to the blueprint
+_inputs:
+  id: 
+    label: ID section
+    type: text
+  title_highlight:
+    label: Title Highlight
+    type: text
+  title:
+    label: Title
+    type: text
+  button.text:
+    label: Button Text
+    type: text
+  button.icon:
+    label: Button Icon
+    type: image
+  button.icon_alt:
+    label: Button Icon Alt
+    type: text
+  product[*].category:
+    label: Category
+    type: text
+  product[*].list[*].title:
+    label: Title
+    type: text
+  product[*].list[*].tag:
+    label: Tag
+    type: text
+  product[*].list[*].price:
+    label: Price
+    type: text
+  product[*].list[*].image:
+    label: Image
+    type: image
+  product[*].list[*].image_alt:
+    label: Image Alt
+    type: text
